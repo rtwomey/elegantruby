@@ -1,0 +1,43 @@
+permalink: /:categories/:year/:month/:day/:title
+exclude: ['.rvmrc', '.rbenv-version', 'README.md', 'Rakefile', 'changelog.md']
+auto: true
+pygments: true
+markdown: redcarpet
+
+title : Elegant Ruby
+tagline: Notes on writing elegant, performant ruby code.
+author :
+  name : Ryan Twomey
+  email : rtwomey@gmail.com
+  github : rtwomey
+  twitter : rtwomey
+
+production_url : http://www.elegantruby.com
+
+JB :
+  version : 0.2.13
+
+  BASE_PATH : false
+  ASSET_PATH : false
+
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+
+  comments :
+    provider : disqus
+    disqus :
+      short_name : elegantruby
+
+  analytics :
+    provider : google
+    google :
+        tracking_id : 'UA-37962858-1'
+
+  # Settings for sharing helper.
+  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Set 'provider' to the sharing provider you want to use.
+  # Set 'provider' to false to turn sharing off globally.
+  #
+  sharing :
+    provider : false
