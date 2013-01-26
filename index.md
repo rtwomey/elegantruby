@@ -14,26 +14,7 @@ tagline: Writing elegant ruby code.
 
       <hr/>
 
-      <div class="row">
-        <div class="span6">
-          <p>
-            Posted on {{ post.date | date_to_string }} in <a href="/categories.html#{{ post.category }}-ref">{{ post.category }}</a>.<br/>
-            Tagged:
-
-            {% assign last_item = (post.tags | last) %}
-            {% for tag in post.tags %}
-              <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>{% unless tag contains last_item %},{% endunless %}
-            {% endfor %}<br/>
-
-          </p>
-        </div>
-
-        <div class="span2">
-          <p>
-            <a href="{{ BASE_PATH }}{{ post.url }}">Read more...</a>
-          </p>
-        </div>
-      </div>
+      {% include post_footer %}
 
       <hr/>
 
