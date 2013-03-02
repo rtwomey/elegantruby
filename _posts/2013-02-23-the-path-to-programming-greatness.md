@@ -4,6 +4,7 @@ title: "The Path to Programming Greatness"
 description: "Improving from a good programmer to a great programmer."
 category: Programming
 tags: [design patterns, refactoring, testing]
+author: costa
 ---
 {% include JB/setup %}
 

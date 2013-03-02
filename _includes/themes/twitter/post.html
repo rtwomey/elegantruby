@@ -1,7 +1,7 @@
 <div class="page-header">
   <h1>{{ page.title }}</h1>
 
-  <p class="lead">{{ page.description }}</p>
+  {% include attribution %}
 </div>
 
 <div class="row">
@@ -15,10 +15,6 @@
 
   <div class="span4">
     {% include sidebar %}
-
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
-    <br/>
 
     {% unless page.tags == empty %}
       <h4>Tags</h4>

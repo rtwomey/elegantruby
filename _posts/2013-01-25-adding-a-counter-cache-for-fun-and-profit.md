@@ -6,6 +6,7 @@ description: >
   where you might be displaying a count of elements many times on a single page.
 category: Tutorials
 tags: [optimization, rails]
+author: ryan
 ---
 {% include JB/setup %}
 
