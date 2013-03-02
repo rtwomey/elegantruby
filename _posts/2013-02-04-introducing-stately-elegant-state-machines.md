@@ -6,6 +6,7 @@ description: >
   experience. Define states, transitions, validations, and more.
 category: gems
 tags: [gems, ruby, design patterns]
+author: ryan
 ---
 {% include JB/setup %}
 

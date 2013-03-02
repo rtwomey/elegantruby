@@ -1,0 +1,19 @@
+{% assign author = site.authors[page.author] %}
+{% if author %}
+  <div class="attribution">
+    <span class="author-name">By {{ author.name }}</span>
+    <span class="date">on {{ page.date | date_to_long_string }}</span>
+    <span class="twitter">
+      <a href="http://twitter.com/{{ author.twitter }}">
+        <img src="/assets/images/twitter.png" />
+        @{{ author.twitter }}
+      </a>
+    </span>
+    <span class="github">
+      <a href="http://github.com/{{ author.github }}">
+        <img src="/assets/images/github.png" />
+        {{ author.github }}
+      </a>
+    </span>
+  </div>
+{% endif %}

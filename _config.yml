@@ -6,11 +6,19 @@ markdown: redcarpet
 
 title : Elegant Ruby
 tagline: Notes on writing elegant, performant ruby code.
-author :
-  name : Ryan Twomey
-  email : rtwomey@gmail.com
-  github : rtwomey
-  twitter : rtwomey
+authors:
+  ryan:
+    name: Ryan Twomey
+    email: rtwomey@gmail.com
+    github: rtwomey
+    twitter: rtwomey
+    gravatar: f1c3b210bbbce4839610fab1a3e75764
+  costa:
+    name: Costa Walcott
+    email: cwalcott@gmail.com
+    github: cwalcott
+    twitter: cwalcott
+    gravatar: 21bcd9b02cc77dd3134a0e1c90402181
 
 production_url : http://www.elegantruby.com
 

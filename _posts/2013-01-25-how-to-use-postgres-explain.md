@@ -6,6 +6,7 @@ description: >
   how to use EXPLAIN effectively and speed up slow queries.
 category: Tutorials
 tags: [postgres, optimization, rails]
+author: ryan
 ---
 {% include JB/setup %}
 

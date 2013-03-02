@@ -6,6 +6,7 @@ description: >
   mechanics of writing code. Learn other benefits and how to create your own.
 category: Refactoring
 tags: [refactoring, ruby]
+author: ryan
 ---
 {% include JB/setup %}
 
